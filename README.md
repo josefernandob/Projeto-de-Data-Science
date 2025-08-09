@@ -1,60 +1,50 @@
 # Projeto de Data Science
 
-##  Visão Geral
-Uma breve descrição do propósito do projeto — o que ele faz, o problema que resolve, o contexto (por exemplo: “Análise de salários em diferentes níveis de senioridade...”).
+## Visão Geral
 
-##  Motivação
-Por que você criou esse projeto? O que o inspirou? (ex.: portfólio pessoal, estudo de padrões de remuneração, aprendizado prático...).
+Este projeto foi desenvolvido como parte do meu aprendizado na área de Data Science. O objetivo principal é analisar e visualizar dados relacionados a salários em diferentes níveis de senioridade, utilizando ferramentas como Python, Pandas, Matplotlib e Seaborn. Reforço que, esse projeto foi construído a partir de aulas e conteúdos repassados na aula de imersão de Python da Alura.
 
-##  Funcionalidades
-- Exploração e limpeza de dados (`df_limpo`)
-- Cálculo de estatísticas (médias salariais por senioridade)
-- Visualizações (gráficos de barras, histogramas com KDE, etc.)
+## Deploy
+https://datascienceproject1.streamlit.app/
 
-##  Estrutura do Repositório
-/
-├── data/ # Dados brutos e tratados (não versionados no Git)
-├── notebooks/ # Notebooks Jupyter com análises
-├── src/ # Scripts Python
-├── outputs/ # Gráficos e relatórios gerados
-└── README.md # Descrição do projeto
+## Motivação
 
+Minha paixão por dados e estatísticas me motivou a criar este projeto. Busco aprimorar minhas habilidades em análise de dados e visualização, além de construir um portfólio sólido para futuras oportunidades profissionais.
 
-## 🛠️ Como Executar
+## Funcionalidades
+
+- *Exploração e limpeza de dados*: Preparação dos dados para análise.
+- *Cálculo de estatísticas*: Cálculo de médias salariais por nível de senioridade.
+- *Visualizações*: Criação de gráficos de barras e histogramas com KDE para representar a distribuição salarial.
+
+## Estrutura do Repositório
+
+ data/ # Dados brutos e tratados (não versionados no Git)
+ notebooks/ # Notebooks Jupyter com análises
+ src/ # Scripts Python
+ outputs/ # Gráficos e relatórios gerados
+ README.md # Descrição do projeto
+
+## 🛠 Como Executar
+
 1. Clone o repositório:
    ```bash
    git clone https://github.com/josefernandob/Projeto-de-DataScience.git
 
-
-   
 Acesse a pasta do projeto:
-cd Projeto-de-DataScience
 Instale as dependências:
 pip install -r requirements.txt
 Abra e execute os notebooks:
-jupyter notebook notebooks/analise.ipynb
-ou execute scripts diretamente
-
+jupyter notebook notebooks/analise.ipynb ou execute os scripts diretamente:
 python src/analise_salarios.py
 
 
-📦 Requisitos
+
+ ## 📦 Requisitos
 Python 3.x
 
 Bibliotecas:
-
 pandas
 matplotlib
 seaborn
 numpy
-
-📊 Exemplos de Resultados
-Gráfico de barras: salário médio por nível de senioridade.
-
-Histograma com KDE: distribuição dos salários anuais.
-
-
-📬 Contato
-Autor: José Fernando
-
-GitHub: @josefernandob
